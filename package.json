@@ -1,0 +1,21 @@
+{
+  "name": "arduino-graph",
+  "version": "0.0.1",
+  "description": "Reads data from an arduino via usb serial and exposes it via a web server with graphs",
+  "author": {
+    "name": "Gene Hallman"
+  },
+  "main": "./arduino-graph",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/genehallman/arduino-graph.git"
+  },
+  "dependencies": {
+    "serialport": "*",
+    "express": "*",
+    "ejs":"*"
+  },
+  "engines": {
+    "node": ">= 0.7.0"
+  }
+}
